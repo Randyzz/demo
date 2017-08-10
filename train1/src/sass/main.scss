@@ -169,7 +169,10 @@ html {
 		}
 	}
 
-	@media screen and (max-width: 1199px){    
+	@media screen and (max-width: 1199px){  
+		.inner{
+			width:600px;
+		}  
         .container .success li{
           width: 320px;
           margin: 380px;
