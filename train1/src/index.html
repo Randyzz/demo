@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>个人作品集</title>
-    <link href="../dist/bootstrap.min.css" rel="stylesheet">
+    <link href="../dist/bootstrap.css" rel="stylesheet">
     <link href="../dist/main.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../dist/style.css">
+
 </head>
 <body>
    	<div class="container">
@@ -13,11 +15,20 @@
     		<div class="inner">
     			<div class="left">XXX工作室</div>
     			<div class="right">
-    				<div class="table-cell">
+    				<div class="table-cell" id="nav">
 	    				<span class="active">关于</span>
 	    				<span>成就</span>
 	    				<span>联系</span>
     				</div>
+            <div class="selectBar">
+              <div class="san" id="toggle">三</div>
+              <div class="toggleSelect" id="bar">
+                <div class="show">关于</div>
+                <div>成就</div>
+                <div>联系</div>
+              </div>
+            </div>
+            
     			</div>
     		</div>
     	</header>
@@ -42,12 +53,12 @@
    			<h1>成就</h1>
    			<hr>
    			<ul>
-   				<li></li>
-   				<li></li>
-   				<li></li>
-   				<li></li>
-   				<li></li>
-   				<li></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/232151O27-1.jpg" alt=""></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/2321513010-2.jpg" alt=""></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/2321514348-3.jpg" alt=""></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/2321513520-4.jpg" alt=""></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/232151O27-1.jpg" alt=""></li>
+   				<li><img src="http://img.sj33.cn/uploads/allimg/201509/2321513010-2.jpg" alt=""></li>
    			</ul>
    		</article>
    		<article class="contact" id="contact">
@@ -77,6 +88,7 @@
     	
     <!-- <script type="text/javascript" src="dist/jquery.min.js"></script> -->
     <!-- <script type="text/javascript" src="dist/bootstrap.min.js"></script> -->
-
+	<script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
